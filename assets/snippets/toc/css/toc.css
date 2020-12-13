@@ -1,0 +1,62 @@
+.up-btn{
+    position: fixed;
+    bottom: 90px;
+    width: 44px;
+    height: 44px;
+    right: 20px;
+    background: #ccc;
+    border-radius: 50%;
+    padding: 0;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity linear .3s;
+}
+.up-btn.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.sidebar-block{
+    position: fixed;
+    top: 50%;
+    transform: translate(-100%, -50%);
+    background: #ccc;
+    box-sizing: border-box;
+    max-width: 320px;
+    left: 0;
+    transition: all linear .35s;
+    z-index: 10;
+    opacity: 0;
+    pointer-events: none;
+}
+.sidebar-block.visible{
+    opacity: 1;
+    pointer-events: auto;
+}
+.sidebar-block.active{
+    transform: translate(0, -50%);
+}
+.sidebar-block__holder{
+    padding-right: 20px;
+
+}
+.sidebar-block__holder > button{
+    position: absolute;
+    right: 0;
+    border: 0;
+    background: #ccc;
+    color: #000;
+    padding: 7px 5px;
+    box-sizing: border-box;
+    right: -44px;
+    top: 13%;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
