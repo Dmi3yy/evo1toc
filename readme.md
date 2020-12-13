@@ -112,3 +112,5 @@ content_chunk_name:
     &display=`all`
 ]]
 ```
+
+How setup FAQ block you can read here: [multitv-faq.md](multitv-faq.md)
