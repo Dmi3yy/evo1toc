@@ -60,4 +60,6 @@ $settings['configuration'] = array(
 ```
 
 #### Notice
-((tags)) - need use only for old site where used PHx plugin,[+tags+] - on new sites without PHx. I recommend not use PHx it slows down the site 
+((tags)) - need use only for old site where used PHx plugin
+
+[+tags+] - on new sites without PHx. I recommend not use PHx it slows down the site 
