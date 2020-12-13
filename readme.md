@@ -91,14 +91,20 @@ Put this code before content block:
 [[toc? &show=`1` &upbutton=`1`]]
 ``` 
 
-### With TV (need add tv toc for template)
+### With TV (need add TV params for needed templates)
 Put this code before content block:
 ```HTML
 [[toc? &show=`[*toc*]` &upbutton=`1`]]
 ``` 
 
+**Create TV with name toc**
+- type: dropdown
+- options: Hide==0||Content==1||Content and Sidebar==2
+- default: 0 (you can set any dafault what you want)
+
+
 ### Use with Custom content block
-```[[toc? &show=`[*toc*]` &content=`content_chunk_name`]]```
+```[[toc? &show=`2` &content=`content_chunk_name`]]```
 
 content_chunk_name:
 
