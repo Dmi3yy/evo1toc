@@ -97,7 +97,7 @@ Put this code before content block:
 [[toc? &show=`[*toc*]` &upbutton=`1`]]
 ``` 
 
-**Create TV with name toc**
+**Create TV with name toc** 
 - type: dropdown
 - options: Hide==0||Content==1||Content and Sidebar==2
 - default: 0 (you can set any dafault what you want)
