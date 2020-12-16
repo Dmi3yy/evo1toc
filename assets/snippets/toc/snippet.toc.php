@@ -40,7 +40,7 @@ $hArray = array();
 
 $contLen = mb_strlen($content);
 
-for($i=0;$i<=$contLen+1000; $i++) {
+for($i=0;$i<=$contLen*2 ; $i++) {
 
     $hPosBegin = mb_strpos($content, "<h", $i);
     if($hPosBegin !== false) $i = $hPosBegin; else break;
