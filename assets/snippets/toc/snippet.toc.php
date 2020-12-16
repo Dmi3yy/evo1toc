@@ -114,7 +114,7 @@ if(count($hArray) > 0) {
     if($show == 2 OR $upbutton != 0){
         $modx->regClientHTMLBlock('
             <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
-            <script src="'.MODX_SITE_URL.'assets/snippets/toc/js/toc.js"></script>
+            <script src="'.MODX_SITE_URL.'assets/snippets/toc/js/toc.js?v=1"></script>
         ');
     }
     if ($show == 2){

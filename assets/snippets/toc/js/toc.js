@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function(){
         var diff = parseInt((scrollPosition * 100) / windowHeight);
 
 
-        if(diff >= 30){
+        if(diff >= 10){
             upBtn.classList.add('active')
             sideBar.classList.add('visible')
         }else{
